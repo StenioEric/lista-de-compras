@@ -20,6 +20,33 @@
   /* Border*/
   --border-primary: #d1d5db;
   --border-hover: #b9c2d0;
+
+  /* Font */
+  --ff-sans: "Inter", sans-serif;
+  --fw-md: 500;
+  --fw-smb: 600;
+  --fw-bold: 800;
+
+  --fs-xl: 1.5rem;
+  --fs-base: 1rem;
+  --fs-sm: 0.875rem;
+
+  /* Padding */
+
+  --py-sm: 0.75rem;
+  --py-base: 1rem;
+  --py-md: 2.25rem;
+  --py-lg: 2.5rem;
+  --py-xl: 2.75rem;
+
+  
+
+
+
+
+  
+                        
+
   
    
 
