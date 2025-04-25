@@ -1,3 +1,9 @@
+*,
+::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,9 +33,9 @@
   --fw-smb: 600;
   --fw-bold: 800;
 
-  --fs-xl: 1.5rem;
-  --fs-base: 1rem;
-  --fs-sm: 0.875rem;
+  --fs-xl: 24px;
+  --fs-base: 16px;
+  --fs-sm: 12px;
 
   /* Padding */
 
@@ -38,17 +44,30 @@
   --py-md: 2.25rem;
   --py-lg: 2.5rem;
   --py-xl: 2.75rem;
+}
 
-  
+body{
+  background-color: var(--white-always);
+}
 
+html{
+  font-family: var(--ff-sans);
+  font-size: var(--fs-base);
+  line-height: 1.25;
+  color: var(--content-secondary);
+}
 
+h1 {
+  color: var(--content-primary);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-xl);
+  line-height: 1.3;
+  letter-spacing: 0.09em;
+} 
 
-
-  
-                        
-
-  
-   
-
-
+small {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-md);
+  line-height: 1.14;
+  color: var(--white-always);
 }
