@@ -1,0 +1,23 @@
+.error{
+  background-color: var(--danger-color);
+  border-radius: 12px;
+  margin-top: 44px;
+  padding-block: 12px;
+  justify-content: space-between;
+
+  & .error-message{
+    color: var(--white-always);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-bold);
+    line-height: 1.3;
+    align-items: center;
+    margin-left: 8px;
+    gap: 1rem;
+  }
+
+  & .icon{    
+    align-items: center;
+    margin-right: 0.75rem;
+    cursor: pointer;
+  }
+}
