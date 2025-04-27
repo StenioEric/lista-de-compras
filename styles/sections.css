@@ -1,0 +1,39 @@
+
+.item-list {
+  display: grid;
+  gap: 0.75rem;
+  align-items: center;
+  align-content: center;
+}
+
+.item {
+  padding-block: 0.75rem;
+  border-radius: 10px;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--background-secondary);
+
+  & .trash {
+    margin-right: 0.75rem;
+  }
+  
+  & .trash:hover {
+    cursor: pointer;
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+}
+
+.top-bar {
+  margin-top: 4.8rem;
+
+  span {
+    font-size: var(--fs-base);
+    color: var(--brand-color);
+    cursor: pointer;
+  }
+}
