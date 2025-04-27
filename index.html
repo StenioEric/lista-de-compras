@@ -26,22 +26,15 @@
       <span class="back"> <- Voltar</span>
       <h1 id="bola">Compras da semana</h1>
 
-      <form method="post" enctype="multipart/form-data" class="">
+      <form action="#">
         <input type="text" name="product" id="product" placeholder="Adicione um novo item" required />
-        <button type="submit">Adicionar item</button>
+        <button type="submit" id="btn">Adicionar item</button>
       </form>
     </div>
 
     <div class="container">
       <ul class="item-list margin-top">
-        <li class="item flex">
-          <div class="flex gap-1 margin-left-12">
-            <input type="checkbox" />
-            <p>Pão</p>
-          </div>
-          <img class="trash" src="assets/icons/trash.svg" alt="ícone de lixeira" />
-        </li>
-
+        
       </ul>
     </div>
 
@@ -57,6 +50,7 @@
 
     </div>
   </main>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
