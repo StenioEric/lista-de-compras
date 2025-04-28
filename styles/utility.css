@@ -38,6 +38,16 @@
   display: none;
 }
 
+.close {
+  display: none;
+}
+
+.btn-close {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .container {
   --max-width: 375px;  
   width: min(var(--max-width), 100% - var(--px-base) * 2);
