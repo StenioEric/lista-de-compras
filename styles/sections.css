@@ -13,12 +13,8 @@
   width: 100%;
   background-color: var(--background-secondary);
 
-  & .trash {
+  & .icon-trash {
     margin-right: 0.75rem;
-  }
-  
-  & .trash:hover {
-    cursor: pointer;
   }
 }
 
